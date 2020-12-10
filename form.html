@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="img/Vast.ico" />
+    <meta charset="utf-8">
+    <style media="screen">
+
+    body {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-image: url(img/eli.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+    #details{
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 2px 3px 0px 0px rgba(0, 0, 0, 0.5);
+      }
+
+    .foot {
+      margin: auto;
+      width: 40%;
+    }
+
+    .head1 {
+        color: yellow;
+        text-decoration: none;
+    }
+
+    .head1:hover {
+        background-color: gold;
+        border-radius: 5px;
+        border-margin: 0;
+        color: black;
+    }
+    h2 {
+      color: white;
+    }
+
+    .label {
+        margin: 2%;
+    }
+
+    .license{
+      color: yellow;
+      text-decoration: none;
+    }
+
+    #send {
+        margin-top: 4%;
+    }
+
+    #sex {
+        margin: auto;
+        width: 35%;
+    }
+    #yourdetails {
+        background-color: rgba(225, 255, 255, 0.5);
+        box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.5);
+        margin: auto;
+        width: 40%;
+    }
+
+
+    </style>
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1><a href="index.html" class="head1">Vast Media<a></h1>
+      <h2>Contact me</h2>
+        <form class="" action="index.html" method="post">
+          <fieldset id="yourdetails">
+            <legend id="details">Your Details</legend>
+              <label class="label" for="name">Fullname</label><br>
+              <input id="name" type="text" name="name" value="" required><br>
+              <label class="label" for="email">Email Address</label><br>
+              <input id="email" type="email" name="email" value="" required><br>
+              <label class="label" for="number">Phone Number</label><br>
+              <input id="number" type="phone" name="phone" value="" required><br>
+              <label class="label" for="date">Date of Birth</label><br>
+              <input id="date" type="date" name="birthdate" value="" required><br>
+              <fieldset id="sex">
+                <legend id="sex">Sex</legend>
+                  <label for="male">male</label>
+                  <input type="radio" name="sex" value="male">
+                  <label for="female">female</label>
+                  <input type="radio" name="sex" value="female">
+              </fieldset>
+              <label class="label" for="file">Passport Upload</label>
+              <input type="file" name="file" value="" min="50kb" max="128kb" required><br>
+            <input id="send" type="submit" name="submit" value="Send">
+          </fieldset>
+        </form>
+        <p><a class="license" href="index.html">Home<a/></p>
+    <div class="foot">
+      <a class="license" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        <img alt="Creative Commons License" style="border-width:0"
+        src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+        <br />This work is licensed under a <a class="license" rel="license"
+        href="http://creativecommons.org/licenses/by-nc/4.0/">
+        Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+    </div>
+  </body>
+</html>
